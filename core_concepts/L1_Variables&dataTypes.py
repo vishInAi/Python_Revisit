@@ -65,6 +65,20 @@ print (f"Exponentiation : {a**b}")
 
 # I can add Input prompts too but just going with whatever the lecture 1 is teaching
 
+# Relational / Comparison Operators
+# a value is set at 5 and b value is set at 3 
+print("\n Relational / Comparison Operators : ")
+print(f" Syntax : a == b in performance : { a == b }")
+print(f" Syntax : a != b in performance : { a != b }")
+print(f" Syntax : a < b in performance : { a < b }")
+print(f" Syntax : a > b in performance : { a >= b }")
+print(f" Syntax : a <= b in performance : { a <= b }")
+print(f" Syntax : a >= b in performance : { a >= b }")
+
+
+
+
+
 
 
 
