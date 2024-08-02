@@ -1,4 +1,4 @@
-#Nested if Testing
+#Nested if Testing dont mind the title its just for fun!
 str="GF Honesty Checker"
 print(str.center(50,"."))
 print("GF Location(h,b,c,u): ")
