@@ -8,7 +8,7 @@ price=60000000000.00
 # Apollo Hospitals states that the notional value of a single human body could be as high as $6,000,000,000 😂
 
 print("\n Variables declared above and their values : ")
-# dont mind me i use string literals all the time cause you dont have to put in more "" to put in string in a bit bit manner saves time
+# dont mind the F in below print statements its just a string literal
 print(f" Name : {name}")
 print(f" Age : {age}")
 print(f" Price : {price}")
