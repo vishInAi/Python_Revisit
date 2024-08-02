@@ -27,4 +27,44 @@ print(f" Special Symbols : {special_symbols}")
 print(f" Whitespaces : {whitespaces}")
 print(f" Ascii and unicode are also compatible : 😂")
 
+# Data types
+print("\n DataTypes in Python : ")
+print(f"Integer : {age} (type : {type(age)})")
+print(f"String : {name} (type : {type(name)})")
+print(f"Float : {price} (type : {type(price)})")
+bool_eg = True
+print(f"Boolean : {bool_eg} (type : {type(bool_eg)})")
+
+# Keywords
+keywords_eg = "False"
+print(f"\n Keywords in Python (e.g., False) should always be upper case : {keywords_eg} ")
+
+# Comments in python
+print("\n Comments in Python : ")
+print(" '#' starts a single line comment in python ")
+print(' """comment"""  now this can produce multiline comment triple double quotes')
+
+"""
+multiline 
+Comment 
+Right 
+Here
+"""
+
+# Arithmetic Operations
+# lets use alphabets for vars pretty easy to use then
+a = 5
+b = 3
+print ("\n Arithmetic Operations : ")
+print (f"Addition : {a+b}")
+print (f"Substraction : {a-b}")
+print (f"Multiplication : {a*b}")
+print (f"Division : {a/b}")
+print (f"Modulus : {a%b}")
+print (f"Exponentiation : {a**b}")
+
+# I can add Input prompts too but just going with whatever the lecture 1 is teaching
+
+
+
 
