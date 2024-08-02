@@ -75,8 +75,53 @@ print(f" Syntax : a > b in performance : { a >= b }")
 print(f" Syntax : a <= b in performance : { a <= b }")
 print(f" Syntax : a >= b in performance : { a >= b }")
 
+# Ok lets exploit one variable by testing all Assignment operators on it 🥽
+print("\n Assignment Operators : ")
+assign = 10
+assign += 2
+print(f" assign+=2 : {assign}")
+assign -= 2
+print(f" assign-=2 : {assign}")
+assign *= 2
+print(f" assign*=2 : {assign}")
+assign /= 2
+print(f" assign/=2 : {assign}")
+assign %= 2
+print(f" assign%=2 : {assign}")
+assign **= 2
+print(f" assign**=2 : {assign}")
 
+# Logical Operators
+print("\n Logical Operators : ")
+x = True
+y = False
+print(f" not operator : { not x}")
+print(f" and operator : {x and y}")
+print(f" or operator : {x or y}")
 
+# Type Conversion
+print("\n Type Conversion : ")
+a,b = 1,2.0
+sum = a+b
+print(f"sum of integer and float (1+2.0) : {sum} (type : {type(sum)})")
+
+# Type Casting
+a,b = 1,"2"
+# as you can see its one int and another string as i declared a and b above
+c = int(b)
+# we stopped c from taking string value forced b's value to be taken up as integer
+sum1 = a+c 
+print(f"Type casting string to int and adding so like a+int(b)+c : {a+int(b)+c} output will be 5")
+
+# input in python
+print("\n Input in Python : ")
+user_int = int(input("Enter an Integer (cause you can) : "))
+user_float = int(input("Enter an float (remember to add decimal points or itll add auto) : "))
+user_string = input("Enter a String : ")
+# ok one output to show the inputs working
+print(f"the integer entered : {user_int} , the float entered : {user_float} , the string entered : {user_string}")
+
+# they gave some exercises in that lecture so ill setup another folder within the repository to do them.
 
 
 
