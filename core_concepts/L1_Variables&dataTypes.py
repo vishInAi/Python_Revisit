@@ -116,7 +116,7 @@ print(f"Type casting string to int and adding so like a+int(b)+c : {a+int(b)+c} 
 # input in python
 print("\n Input in Python : ")
 user_int = int(input("Enter an Integer (cause you can) : "))
-user_float = int(input("Enter an float (remember to add decimal points or itll add auto) : "))
+user_float = float(input("Enter an float (remember to add decimal points or itll add auto) : "))
 user_string = input("Enter a String : ")
 # ok one output to show the inputs working
 print(f"the integer entered : {user_int} , the float entered : {user_float} , the string entered : {user_string}")
