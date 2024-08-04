@@ -53,6 +53,8 @@ print(f"Count function of string lets see 'Ai' : {str_func.count('Ai')}")
 
 # day 2 was hectic its 10 pm right now so ill just take rest now ....
 # will add conditional st and remaining string functions and string related on day 3
+# day 3 now 
+
 
 
 
