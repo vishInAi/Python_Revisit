@@ -97,6 +97,7 @@ else :
 print(f"Grade : {grade}")
 
 # other exercises in the specific dedicated exercise folder made seperately to do exercises
+# core concept Exercises folder 
 # Lecture 2 complete
 
 
