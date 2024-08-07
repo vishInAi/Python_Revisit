@@ -91,6 +91,53 @@ print(len(empty))
 
 # 2 remove element method
 
+empty.remove(2)
+# removes the 2 from that set
+print(empty)
+
+# 3 clear method
+empty.clear()
+# remove all elements 
+print(empty)
+
+# lets add some elements to experiment further
+
+empty.add(1)
+empty.add(2)
+empty.add(3)
+empty.add(4)
+empty.add(5)
+empty.add(6)
+empty.add(7)
+
+print(len(empty))
+print(empty)
+
+# 4 pop method
+# pop gives out random value
+
+print(empty.pop())
+print(empty.pop())
+print(empty.pop())
+
+# just pops random values 
+
+# 5 union method
+# combines both set values and returns new set out of them
+print(empty.union(nums))
+# it doesnt repeat so it wont here either
+
+# intersection : like maths see whats common in both and print it
+print(empty.intersection(nums))
+# pop is set up already thatll remove a few elements before check so beware lol youd think something is wrong 🍌 but nothing is
+# doesnt repeat you see
+
+# Thats Day 5 Dictionary and sets for ya
+# contribute if possible
+
+
+
+
 
 
 
