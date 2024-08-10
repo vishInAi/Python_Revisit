@@ -20,4 +20,14 @@ while j<=10:
     j+=1
 
 
+# Program 4 : Print x numbers in this tuple using loop (question doesnt make sense ikr anyway)
+# (1, 4, 9, 16, 25, 36, 49, 64, 81,100)
+
+num_tup = (1, 4, 9, 16, 25, 36, 49, 64, 81,100)
+k = 0
+print(f" All the Numbers till x :")
+while k<=9 :
+    print(num_tup[k])
+    k+=1
+
 
