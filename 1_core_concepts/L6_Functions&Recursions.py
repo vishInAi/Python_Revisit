@@ -41,5 +41,17 @@ hey = print_hello()
 print("\n")
 print(hey)
 
+# print()   just know that its an inbuilt function ok and it has its own content
+# len()  to calculate length of lets say strings or and dType like tuple etc 
+# range() for range you know
 
+# default parameters
+
+def cal_prod(a,b):
+    print(a*b)
+    return a * b
+
+cal_prod 
+
+# ill do exercises now in core concept ex folder on functions l6
 
