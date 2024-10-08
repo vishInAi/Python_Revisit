@@ -39,3 +39,24 @@ print(text)
 f.close()
 
 print(type(text))
+
+# 'w' Write operation :
+
+w = open("tempw.txt", "w")
+
+w.write("Writing something to an empty file hehe")
+w.close()
+
+# 'a' Append Operation :
+
+a = open("tempw.txt", "a")
+
+a.write("\nSomething by append function")
+a.close()
+
+# 'r+' append at start lol :
+
+rw = open("temp.txt", "r+")
+
+rw.write("it'")
+rw.close()

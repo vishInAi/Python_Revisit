@@ -1,0 +1,2 @@
+Writing something to an empty file hehe
+Something by append function
