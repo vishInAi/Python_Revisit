@@ -54,9 +54,40 @@ a = open("tempw.txt", "a")
 a.write("\nSomething by append function")
 a.close()
 
-# 'r+' append at start lol :
+# 'w+' same as above with truncate :
+
+wr = open ("temp.txt", "w+")
+
+wr.write("(w+ got here overwrite completely)")
+wr.close()
+
+# 'r+' overwrite over existing at start lol :
 
 rw = open("temp.txt", "r+")
 
-rw.write("abc")
+rw.write("(abc")
 rw.close()
+
+# 'a+' same as a+ just at the end of the text file :
+
+ar = open ("temp.txt", "a+")
+
+ar.write("\na+ got here bro here")
+ar.close
+
+# io with syntax (it closes file auto) chill papi 💀
+
+with open("temp.txt", "r") as sy:
+    data = sy.read()
+    print(f"Here's the data : {data}")
+
+with open("temp.txt", "w") as wrsy:
+    data1 = wrsy.write("some new shit")
+    print(f"here's the data after write : {data1}")
+
+# importing a module
+
+import os
+# importing here is not a good practice im just doing it for example's sake
+
+os.remove("some.txt")

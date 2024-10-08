@@ -1,6 +1,2 @@
-it's meant to be a testing file for input output in python.
-2nd line
-3rd line
-4th line
-5th line
-6th line
+some new shit
+a+ got here bro here
