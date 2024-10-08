@@ -58,5 +58,5 @@ a.close()
 
 rw = open("temp.txt", "r+")
 
-rw.write("it'")
+rw.write("abc")
 rw.close()
