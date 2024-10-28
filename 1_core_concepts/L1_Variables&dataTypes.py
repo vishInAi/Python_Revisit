@@ -121,6 +121,33 @@ user_string = input("Enter a String : ")
 # ok one output to show the inputs working
 print(f"the integer entered : {user_int} , the float entered : {user_float} , the string entered : {user_string}")
 
+# Order of Mathematical operation in python
+
+# 1. Parentheses
+# 2. Exponents
+# 3. Multiplication and division
+# 4. Addition and subtraction
+
+result_1 = 1032 + 26 * 2
+print(result_1)
+# we dont need parenthesis but its a good practice they say and will shorten the time 🥸
+result_2 = 1032 + (26 * 2)
+print(result_2)
+
+# ans in both cases is 1084
+
+from math import ceil, floor
+
+# not a good practice to import here just for example
+
+round_up = ceil(12.5) # ceil takes to nearest whole integer ahead of decimal 
+print(round_up)
+
+# if the numbers are not at the middle point like 12.5 and like 12.4 or 12.6 then the round can decide on its own too just use round()
+
+round_down = floor(12.5) # floor takes down to nearest whole integer behing the decimal 
+print(round_down)
+
 # they gave some exercises in that lecture so ill setup another folder within the repository to do them.
 
 
